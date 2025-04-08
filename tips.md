@@ -75,4 +75,6 @@ Linux版本是否易受攻击？uname -r/-a（DirtyCow, DirtyPipe?）
 pspy64能否获取密码？
 拿到的所有密码在所有服务上测试了吗？
 系统上有gcc吗？（可能需要编译exp）
+linux下，测一下gcc是否存在，如果存在 有可能提权路径是 让你编译一个基于uname -a的提权exp
+gcc的判断建议手动看，可能被重命名
 ```
